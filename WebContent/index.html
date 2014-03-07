@@ -1,11 +1,33 @@
 <!DOCTYPE html>
 <html>
 <head>
+
+<script src="scripts/loader.js"></script>
+
+<script>
+function load_CV(){
+	document.getElementById("breadPage").innerHTML='<object type="text/html" data="pdf.html" ></object>';
+	}
+</script>
+
+<script>
+$(document).ready( function() {
+    $("#cvLink").on("click", function() {
+        $("#breadPage").load("pdf.html");
+    });
+});
+</script>
+
 <meta charset="ISO-8859-1">
+
 <link type="text/css" rel="stylesheet" href="stylez.css">
+
 <title>Insert Yo Name Brah!</title>
+
 </head>
+
 <body>
+
 <div id = "content">
 	<div id = "tiltHolder">
 		<div id = "tiltedDiv">
@@ -13,8 +35,8 @@
 				<b id = "firstName">gustav</b><b id = "lastName">holfve</b>
 			</div>
 			<div id = "clickStuff">
-				<div id = "CV" align = "right">
-					<a id = "cvLink" href = "cv.html" ></a>
+				<div  id = "CV" align = "right">
+					<a id = "cvLink" href="#" onclick = "load_CV()" ></a>
 						<p>CV</p>
 				</div>
 				<div id = "projects" align = "right">
