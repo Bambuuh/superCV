@@ -6,8 +6,14 @@
 
 <script>
 function load_CV(){
-	document.getElementById("breadPage").innerHTML='<object type="text/html" data="gustavCV.pdf" width=768px height = 1024px ></object>';
+	document.getElementById("breadPage").innerHTML='<object type="text/html" data="gustavCV.pdf" width=768px height = 800px ></object>';
 	}
+function load_projects(){
+	document.getElementById("breadPage").innerHTML='<object type="text/html" data="projects.html" width=768px height = 800px ></object>';
+}
+function load_pics(){
+	document.getElementById("breadPage").innerHTML='<object type="text/html" data="picture.html" width=768px height = 800px ></object>';
+}
 </script>
 
 <script>
@@ -40,11 +46,11 @@ $(document).ready( function() {
 						<p>CV</p>
 				</div>
 				<div id = "projects" align = "right">
-					<a id = "projectLink" href = "projects.html"></a>
+					<a id = "projectLink" href = "#" onclick="load_projects()"></a>
 						<p>projects</p>
 				</div>
 				<div id = "pictures" align= "right">
-					<a id = "pictureLink" href= "picture.html"></a>
+					<a id = "pictureLink" href= "#" onclick="load_pics()"></a>
 						<p>pictures</p>
 				</div>
 			</div>
