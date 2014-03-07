@@ -1,0 +1,79 @@
+@CHARSET "ISO-8859-1";
+#nameDiv{
+	position: absolute;
+	top:100px;
+	right: 20px;;
+}
+
+#tiltHolder{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	top: 0;
+	width: 300px;
+}
+
+#breadPage{
+	position: absolute;
+	right: auto;
+	left:350px;
+	top: 0px;
+}
+
+#cvLink{
+	position: absolute;
+	display: block;
+	top: 145px;
+	right: 23px;
+	width: 50px;
+	height: 30px;
+	z-index: 3;
+}
+
+#CV{
+	position: absolute;
+	top: 130px;
+	right: 23px;
+	color: white;
+	z-index: 1;
+
+}
+
+#firstName{
+	font-size: 28px;
+	color: white;
+	text-align: center;
+}
+
+#lastName{
+	font-size: 28px;
+	color: #3299bb;
+	text-align: center;
+}
+
+#tiltedDiv{
+	position: fixed;
+	font-family: Helvetica;
+	background: #585858;
+	position: relative;
+	width: 300px;
+	height: 1000px;
+	left: -75px;
+	top: -30px;
+	margin-top: -40px;
+	
+	/* Safari */
+    -webkit-transform: rotate(9deg);
+
+    /* Firefox */
+    -moz-transform: rotate(9deg);
+
+    /* IE */
+    -ms-transform: rotate(9deg);
+
+    /* Opera */
+    -o-transform: rotate(9deg);
+
+    /* Standard */
+    transform: rotate(9deg);
+}
