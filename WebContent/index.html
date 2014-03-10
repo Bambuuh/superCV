@@ -14,12 +14,21 @@ function load_projects(){
 function load_pics(){
 	document.getElementById("breadPage").innerHTML='<object type="text/html" data="picture.html" width=768px height = 800px ></object>';
 }
+function load_home(){
+	document.getElementById("breadPage").innerHTML='<object type="text/html" data="home.html" width=768px height = 800px ></object>';
+}
+
+window.onload = function(){
+	load_home();
+};
+
 </script>
 
 <script>
-$(document).ready( function() {
+$(document).ready( function(){
     $("#cvLink").on("click", function() {
         $("#breadPage").load("pdf.html");
+	load_home();
     });
 });
 </script>
@@ -37,6 +46,9 @@ $(document).ready( function() {
 <div id = "content">
 	<div id = "tiltHolder">
 		<div id = "tiltedDiv">
+		
+		<a id = "nameLink" href="#" onclick="load_home()"></a>
+		
 			<div id = "nameDiv">
 				<b id = "firstName">gustav</b><b id = "lastName">holfve</b>
 			</div>
@@ -57,75 +69,9 @@ $(document).ready( function() {
 		</div>
 </div>
 	<div id = "breadPage">
-		<p>HEJSAN SLUSTEN</p>
-		<p>HEJSAN SLUSTEN</p>
-		<p>HEJSAN SLUSTEN</p>
-		<p>HEJSAN SLUSTEN</p>
-		<p>HEJSAN SLUSTEN</p>
-		<p>HEJSAN SLUSTEN</p><p>HEJSAN SLUSTEN</p>
-		<p>HEJSAN SLUSTEN</p><p>HEJSAN SLUSTEN</p>
-		<p>HEJSAN SLUSTEN</p>
-		<p>HEJSAN SLUSTEN</p>
-		<p>HEJSAN SLUSTEN</p>
-		<p>HEJSAN SLUSTEN</p>
-		<p>HEJSAN SLUSTEN</p>
-		<p>HEJSAN SLUSTEN</p>
-		<p>HEJSAN SLUSTEN</p>
-		<p>HEJSAN SLUSTEN</p>
-		<p>HEJSAN SLUSTEN</p>
-		<p>HEJSAN SLUSTEN</p>
-		<p>HEJSAN SLUSTEN</p>
-		<p>HEJSAN SLUSTEN</p>
-		<p>HEJSAN SLUSTEN</p>
-		<p>HEJSAN SLUSTEN</p>
-		<p>HEJSAN SLUSTEN</p>
-		<p>HEJSAN SLUSTEN</p>
-		<p>HEJSAN SLUSTEN</p>
-		<p>HEJSAN SLUSTEN</p>
-		<p>HEJSAN SLUSTEN</p>
-		<p>HEJSAN SLUSTEN</p>
-		<p>HEJSAN SLUSTEN</p>
-		<p>HEJSAN SLUSTEN</p>
-		<p>HEJSAN SLUSTEN</p><p>HEJSAN SLUSTEN</p><p>HEJSAN SLUSTEN</p><p>HEJSAN SLUSTEN</p>
-		<p>HEJSAN SLUSTEN</p>
-		<p>HEJSAN SLUSTEN</p>
-		<p>HEJSAN SLUSTEN</p>
-		<p>HEJSAN SLUSTEN</p>
-		<p>HEJSAN SLUSTEN</p>
-		<p>HEJSAN SLUSTEN</p>
-		<p>HEJSAN SLUSTEN</p>
-		<p>HEJSAN SLUSTEN</p>
-		<p>HEJSAN SLUSTEN</p>
-		<p>HEJSAN SLUSTEN</p>
-		<p>HEJSAN SLUSTEN</p>
-		<p>HEJSAN SLUSTEN</p>
-		<p>HEJSAN SLUSTEN</p>
-		<p>HEJSAN SLUSTEN</p>
-		<p>HEJSAN SLUSTEN</p>
-		<p>HEJSAN SLUSTEN</p>
-		<p>HEJSAN SLUSTEN</p>
-		<p>HEJSAN SLUSTEN</p>
-		<p>HEJSAN SLUSTEN</p>
-		<p>HEJSAN SLUSTEN</p>
-		<p>HEJSAN SLUSTEN</p>
-		<p>HEJSAN SLUSTEN</p>
-		<p>HEJSAN SLUSTEN</p>
-		<p>HEJSAN SLUSTEN</p>
-		<p>HEJSAN SLUSTEN</p>
-		<p>HEJSAN SLUSTEN</p>
-		<p>HEJSAN SLUSTEN</p>
-		<p>HEJSAN SLUSTEN</p>
-		<p>HEJSAN SLUSTEN</p>
-		<p>HEJSAN SLUSTEN</p>
-		<p>HEJSAN SLUSTEN</p>
-		<p>HEJSAN SLUSTEN</p>
-		<p>HEJSAN SLUSTEN</p>
-		
 	</div>
-	
 	<div>
 	</div>
-
 </div>
 
 </body>

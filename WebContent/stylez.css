@@ -3,7 +3,8 @@
 #nameDiv{
 	position: absolute;
 	top:100px;
-	right: 20px;;
+	right: 20px;
+	z-index: 1;
 }
 
 #tiltHolder{
@@ -12,6 +13,16 @@
 	left: 0;
 	top: 0;
 	width: 300px;
+}
+
+#nameLink{
+	position: absolute;
+	display: block;
+	top: 100px;
+	right: 20px;
+	width: 170px;
+	height: 30px;
+	z-index: 3;
 }
 
 #breadPage{
