@@ -1,0 +1,74 @@
+@CHARSET "US-ASCII";
+
+#explosionboy{
+	height: 400px;
+}
+
+.middleColumn {
+	font-family: Helvetica;
+	width: 400px;
+	margin-right: 20px;
+	margin-left: 15px;
+	float: left;
+}
+
+.middleContainer {
+	background-color: #585858;
+	border: 2px solid #DDDBDB;
+	margin: 10px;
+	width: 400px;
+	height: 320px;
+	padding: 2px;
+}
+
+.projectName {
+	background-color: #585858;
+	color: #FFF;
+	width: 192px;
+	height: 26px;
+	text-align: right;
+	padding-right: 7px;
+	position: relative;
+	left: 205px;
+	top: -25px;
+	z-index: 20;
+}
+
+.featuredImage { 
+	position: relative;
+	left: 0px;
+	top: -46px;
+}
+.middleTitle{
+	color : #DDDBDB;
+	position: relative;
+	top : -47px;
+	padding-left: 4px;
+}
+
+.horizontalRule{
+	background-color: #DDDBDB;
+	height: 2px;
+	width: 397px;
+	margin-left : 1px;
+	position: relative;
+	top: -45px;
+}
+
+.projectDescription{
+	color : #DDDBDB;
+	font-size: 10pt;
+	margin-left: 3px;
+	position: relative;
+	top: -50px;	
+}
+
+img{
+	width: 100%;
+}
+imgFrame{
+	width: 400px;
+	height: 250px;
+	border: none;
+	z-index: 19;
+}
