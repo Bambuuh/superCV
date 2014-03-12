@@ -1,7 +1,14 @@
 @CHARSET "US-ASCII";
 
+
+#spacecow{
+	height: 355px;
+}
+#hungryanimals{
+	height: 390px;
+}
 #explosionboy{
-	height: 400px;
+	height: 358px;
 }
 
 .middleColumn {
@@ -17,7 +24,7 @@
 	border: 2px solid #DDDBDB;
 	margin: 10px;
 	width: 400px;
-	height: 320px;
+	height: auto;
 	padding: 2px;
 }
 
@@ -64,11 +71,6 @@
 }
 
 img{
-	width: 100%;
-}
-imgFrame{
 	width: 400px;
-	height: 250px;
-	border: none;
-	z-index: 19;
+	display: block;
 }
