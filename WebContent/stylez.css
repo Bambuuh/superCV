@@ -11,6 +11,10 @@
 	z-index: 1;
 }
 
+object{
+	height: 100%;
+}
+
 #content{
 	height: 100%;
 	width: 100%;
@@ -21,6 +25,7 @@
 
 html, body{
 	margin: 0px;
+	height: 100%;
 }
 
 #nameDiv{
@@ -50,6 +55,7 @@ html, body{
 }
 
 #breadPage{
+	height: 100%;
 	position: relative;
 	right: auto;
 	left:350px;
