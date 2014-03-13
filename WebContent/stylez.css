@@ -1,10 +1,20 @@
 @CHARSET "ISO-8859-1";
 
-#content{
+#backgroundcolor{
+	position: fixed;
 	background-color: #F5F5F5;
+	height: auto;
+	width: 100%;
+	float: left;
+	bottom: 0px;
+	z-index: -10;
+}
+
+#content{
 	height: 100%;
 	width: 100%;
 	float: left;
+	bottom: 0px;
 }
 
 html, body{
@@ -44,6 +54,7 @@ html, body{
 	left:350px;
 	top: 0px;
 	width:1000px;
+	
 }
 
 #clickStuff{

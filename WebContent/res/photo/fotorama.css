@@ -443,14 +443,22 @@
 -webkit-transform
 
 
+
+
 :rotate(360deg)
+
+
 
 
 ;
 transform
 
 
+
+
 :rotate(360deg)
+
+
 
 
 }
@@ -466,21 +474,33 @@ keyframes spinner { 0%{
 -webkit-transform
 
 
+
+
 :rotate(360deg)
+
+
 
 
 ;
 -ms-transform
 
 
+
+
 :rotate(360deg)
+
+
 
 
 ;
 transform
 
 
+
+
 :rotate(360deg)
+
+
 
 
 }
